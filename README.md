@@ -20,15 +20,6 @@ To create a new microservice project using this template, follow these steps:
     cookiecutter https://github.com/your-username/microservice-cookiecutter
     ```
 
-    - If you are using a local copy of the template, you can use the following
-      command (an absolute path is required):
-    ```bash
-    cookiecutter /path/to/microservice-cookiecutter-template.json
-    ```
-   
-   - Note: It's better to be in an empty directory when running Cookiecutter
-     because it will generate project files into the current directory.
-
 3. **Follow the prompts to provide project details and configure your
    microservice.**
 
