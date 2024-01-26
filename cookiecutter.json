@@ -1,0 +1,8 @@
+{
+  "service_name": "example_service",
+  "description": "A short description of the service.",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "github_username": "your_github_username",
+  "project_license": "MIT"
+}
