@@ -12,19 +12,13 @@ To run the microservice, follow these steps:
 poet install
 ```
 
-2. Set up database migrations:
-    
-```bash
-alembic upgrade head
-```
-
-3. Run the microservice:
+2. Run the microservice:
 
 ```bash
-uvicorn {{cookiecutter.service_name}}.api.endpoints.main:app --reload
+uvicorn api.main:app --reload
 ```
 
-4. Access the API at http://localhost:8000
+3. Access the API at http://localhost:8000
 
 ## Database Migrations
 
